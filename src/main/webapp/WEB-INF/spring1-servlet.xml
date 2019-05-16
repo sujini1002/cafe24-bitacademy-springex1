@@ -11,7 +11,7 @@
 	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<context:annotation-config /><!-- @Controller붙은 클래스를 찾아서 컨테이너에 등록 -->
+	<context:annotation-config /><!-- 어노테이션이 붙은 클래스를 찾아서 컨테이너에 등록 -->
 	<context:component-scan base-package="com.cafe24.springex.controller" /><!-- 이 패키지 내에서만 찾아라 -->
 
 </beans>
